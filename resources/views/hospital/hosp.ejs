@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="/css/style.css">
+<script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+<script src="/js/data.js"></script>
+<script src="/js/magic.js"></script>
+<link rel = "icon" href = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTYnCRPwjaQJOkQeq1Xe02iaI4e-pW7w99GKkCqrjpezps-aHkz&usqp=CAU" 
+type = "image/x-icon"> 
+<div class = "pp">
+<div class="title">
+    NEARBY HOSPITALS
+</div> 
+<div class="search-container"  >
+   <div class="search">
+       <input id="zip-code-input"  type="text" placeholder="enter picode e.g. 110092 or 110095"></input>
+       <i class="fas fa-search" onclick="searchHospitals()"></i>
+   </div> 
+</div>
+<div class="hospitals-list-container">
+   <div class="hospitals-list">
+   </div>
+</div>
+</div>
+
+<div id="map"></div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCzPMaJss7fAe0C-weO3Q1lzGZ2B3zy4A&callback=initMap"
+async defer></script>

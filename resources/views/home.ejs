@@ -1,0 +1,102 @@
+<section class="hero py-16">
+    <div class="container mx-auto flex items-center justify-between">
+        <div class="w-1/2">
+            <img src="https://cdn.dribbble.com/users/64533/screenshots/4593751/animated---medical-ai-v3.gif" style="width: 70vw; border-radius:10%" alt="">
+        </div>
+        <div class="w-1/2">
+            <h6 class="text-lg"><em></em></h6>
+            <h1 class="text-6xl font-bold" style="font-family: Arvo, serif;">We aim to make your life better.</h1>
+            <button class="pr-3 px-6 py-2 rounded-full text-white font-bold mt-4 btn-primary" style="font-family: Arvo, serif;margin-left: 30%;">Know More</button>
+        </div>
+    </div>
+</section>
+<style>
+    
+  
+    .geeks img {
+        width: 100%;
+        transition: 0.5s all ease-in-out;
+    }
+  
+    .geeks:hover img {
+        transform: scale(1.5);
+    } 
+
+
+
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+</style>
+
+    <h1 class="text-xl font-bold mb-8" style="font-size: 56px;font-family: Arvo, serif;text-align: center; margin-top: 6%;">Our Facilities</h1>
+    <!-- <div class="row" style="margin-top:5%;">
+        <div class="column" style="width:50%;">
+            <div class="geeks">
+          <img src="https://www.intellis.io/hubfs/Healthcare-technology.jpg" style="height:50%; width:100%;">
+            </div>
+        <div class="geeks" >
+          <img src="https://2rdnmg1qbg403gumla1v9i2h-wpengine.netdna-ssl.com/wp-content/uploads/sites/3/2020/11/covidLabTesting-1214033376-770x533-1-650x428.jpg" style="height:50%;margin-top: 0%;width: 100%;">
+        </div>
+        </div>
+        <div class="column" style="margin-top:0 ">
+            <div class="geeks">
+          <img src="https://www.beltmannlogistics.com/wp-content/uploads/2018/11/healthcare.jpg" style="height:50%;width:100%;" class="geeks"></div>
+          <div class="geeks">
+          <img src="https://media.istockphoto.com/photos/emergency-department-picture-id538726573?k=20&m=538726573&s=612x612&w=0&h=1vD2suiRuSZfcpEk4LQaMGqiV5oKmYlP4_SE9sCWjaY=" style="height:50%; width: 100%;">
+          </div>
+        </div>
+      </div> -->
+
+       <div class="row"> 
+        <div class="column">
+                <img src="https://www.intellis.io/hubfs/Healthcare-technology.jpg" style="width: 100%; height: 50%;"class="geeks" >
+                <img src="https://2rdnmg1qbg403gumla1v9i2h-wpengine.netdna-ssl.com/wp-content/uploads/sites/3/2020/11/covidLabTesting-1214033376-770x533-1-650x428.jpg" style="width: 100%; height: 50%;"class="geeks" >
+         </div>
+          <div class="column">
+                <img src="https://www.beltmannlogistics.com/wp-content/uploads/2018/11/healthcare.jpg" style="width: 100%; height: 50%;" class="geeks">
+                <img src="https://media.istockphoto.com/photos/emergency-department-picture-id538726573?k=20&m=538726573&s=612x612&w=0&h=1vD2suiRuSZfcpEk4LQaMGqiV5oKmYlP4_SE9sCWjaY=" style="width: 100%;  height: 50%;" class="geeks">
+            </div>
+        </div> 
+
+    <section class="menu container mx-auto py-8" style="margin-top:5%;">
+        <h1 class="text-xl font-bold mb-8" style="font-family: Arvo, serif; font-size:28px;margin-left: 5%;font-weight: bold;">Lab Tests</h1>
+        <div class="grid grid-cols-4 col-gap-12 row-gap">
+            <% pizzas.forEach(function(pizza){
+                if(pizza.price=="800"||pizza.price=="200"||pizza.price=="294"||pizza.price=="490"||pizza.price=="560"||pizza.price=="434"||pizza.price=="400"||pizza.price=="300"){ %>
+            <div class="w-64">
+                <img class="h-40 mb-4 mx-auto" src="<%= pizza.image %>" alt="">
+                <div class="text-center">
+                    <h2 class="mb-4 text-lg"><%= pizza.name %></h2>
+                    <div class="flex items-center justify-around mt-6">
+                        <span class="font-bold text-lg">₹<%= pizza.price %></span>
+                        <button data-pizza="<%= JSON.stringify(pizza) %>" class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold">
+                            <span>Add</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <% }}) %>
+        </div>
+        
+       
+    </section>

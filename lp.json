@@ -1,0 +1,187 @@
+[{
+    "_id": {
+      "$oid": "5eee651f739f8c674fd736ee"
+    },
+    "name": "Covid RT-PCR",
+    "image": "https://m.economictimes.com/thumb/msid-79349068,width-1200,height-900,resizemode-4,imgsize-66915/rt-pcr-test.jpg",
+    "price": "800"
+  },{
+    "_id": {
+      "$oid": "5eee6671a27a66807cf2bea3"
+    },
+    "name": "Fasting Blood Sugar",
+    "image": "https://image.shutterstock.com/image-photo/blood-sample-requisition-form-fasting-260nw-728417929.jpg",
+    "price": "200"
+  },{
+    "_id": {
+      "$oid": "5eee6692a27a66807cf2bea4"
+    },
+    "name": "Beta HCG",
+    "image": "https://static.tuasaude.com/media/article/fq/xu/how-to-interpret-the-beta-hcg-test-results_1033_l.jpg",
+    "price": "294"
+  },{
+    "_id": {
+      "$oid": "5eee66a5a27a66807cf2bea5"
+    },
+    "name": "Vitamin B12",
+    "image": "https://blog.houseofdiagnostics.com/wp-content/uploads/2019/08/vitamin-b12-1.jpg",
+    "price": "490"
+  },{
+    "_id": {
+      "$oid": "5eee66c4a27a66807cf2bea6"
+    },
+    "name": "Liver Function Test",
+    "image": "https://lifecarediagnostic.com/wp-content/uploads/2018/08/liver_function_tests.jpg",
+    "price": "560"
+  },{
+    "_id": {
+      "$oid": "5eee66cfa27a66807cf2bea7"
+    },
+    "name": "Lipid Profile Test",
+    "image": "https://www.netmeds.com/images/cms/wysiwyg/blog/2021/02/1613636799_Lipid_big_450.jpg",
+    "price": "434"
+  },{
+    "_id": {
+      "$oid": "5eee66eea27a66807cf2bea8"
+    },
+    "name": "Thyroid Profile ",
+    "image": "https://apollosugar.com/wp-content/uploads/2018/08/shutterstock_1121149046.jpg",
+    "price": "400"
+  },{ 
+    "_id": {
+      "$oid": "5eee6717a27a66807cf2bea9"
+    },
+    "name": "Complete Blood Count",
+    "image": "https://blog.houseofdiagnostics.com/wp-content/uploads/2019/12/Untitled-design-16-1200x480.jpg",
+    "price": "300"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6717a27a66807cf2beb1"
+    },
+    "name": "Dolo 650mg",
+    "image": "https://5.imimg.com/data5/ANDROID/Default/2021/4/BB/ED/HK/7210393/product-jpeg-500x500.jpeg",
+    "price": "15"
+  },{
+    "_id": {
+      "$oid": "5eee6717a27a66807cf2beb2"
+    },
+    "name": "Evion 400",
+    "image": "https://www.netmeds.com/images/product-v1/600x600/31101/evion_400mg_capsule_10_s_3.jpg",
+    "price": "13"
+  },{
+    "_id": {
+      "$oid": "5eee6717a27a66807cf2beb3"
+    },
+    "name": "Cortel H-40",
+    "image": "https://www.netmeds.com/images/product-v1/600x600/837587/cortel_h_40mg_tablet_15_s_2.jpg",
+    "price": "133"
+  },{
+    "_id": {
+      "$oid": "5eee6717a27a66807cf2beb4"
+    },
+    "name": "Dabur Gulabari Rose Glow Cleanser Men & Women",
+    "image": "https://rukminim1.flixcart.com/image/416/416/j1b0xow0/eye-drops/c/s/e/gulab-jal-dabur-original-imaesvx4tktycjbn.jpeg?q=70",
+    "price": "71"
+  },{
+    "_id": {
+      "$oid": "5eee6717a27a66807cf2beb5"
+    },
+    "name": "Koflet",
+    "image": "http://cdn.shopify.com/s/files/1/0272/4714/9155/products/kofflet-syrup-100ml_1200x1200.jpg?v=1622100457",
+    "price": "56"
+  },{
+    "_id": {
+      "$oid": "5eee6717a27a66807cf2beb6"
+    },
+    "name": "OIL-CLEAR-FACEWASH",
+    "image": "https://m.media-amazon.com/images/I/51W3tFhF5-L._AC_SX569_.jpg",
+    "price": "133"
+  },{
+    "_id": {
+      "$oid": "5eee6717a27a66807cf2beb7"
+    },
+    "name": "ECOSPRIN-75",
+    "image": "https://static2.medplusmart.com/products/ECOS0003_L.jpg?v=187bf8",
+    "price": "71"
+  },{ 
+    "_id": {
+      "$oid": "5eee6717a27a66807cf2beb8"
+    },
+    "name": "Amoxycillin 500mg Capsule",
+    "image": "https://5.imimg.com/data5/FW/MF/MY-9284626/amoxycillin-capsules-500x500.jpg",
+    "price": "46"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6717a27a66807cf2beb9"
+    },
+    "name": "Avil 25 Tablet",
+    "image": "https://omsi.in/wp-content/uploads/2014/09/Avil-25-Tablet-15-Tabs.jpg",
+    "price": "8"
+  
+  },
+  {
+    "_id": {
+      "$oid": "5eee6717a27a66807cf2bec1"
+    },
+    "name": "Ambrodil-S Syrup",
+    "image": "https://cdn01.pharmeasy.in/dam/products/008010/ambrodil-syp-100ml-front-2-1597364819.jpg",
+    "price": "108"
+  
+  },
+  {
+    "_id": {
+      "$oid": "5eee6717a27a66807cf2bec2"
+    },
+    "name": "Pepcia-D",
+    "image": "https://seller.shoponn.in/Item/Pepcia%20D%20Capsule%2010%20SA.jpg",
+    "price": "43"
+  
+  },
+  {
+   
+    "_id": {
+      "$oid": "5eee6717a27a66807cf2bec3"
+    },
+    "name": "Nicip",
+    "image": " https://www.practostatic.com/practopedia-v2-images/res-750/5762c350638d788389e6cc8fde1ca0e389590dcc1.jpg",
+    "price": "28"
+  },
+  {
+  
+    "_id": {
+      "$oid": "5eee6717a27a66807cf2bec4"
+    },
+    "name": "Boroline",
+    "image": " https://res.sastasundar.com/incom/images/product/Boroline-Cream-1571302592-10004123-1.jpg",
+    "price": "71"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6717a27a66807cf2bec5"
+    },
+    "name": "Atarax 10mg tablet",
+    "image": " https://cdn.shopify.com/s/files/1/0028/9390/6018/products/Atarax_10mg_Tab_copy_1024x1024@2x.jpg?v=1550901414",
+    "price": "37"
+  
+  },
+  {
+    "_id": {
+      "$oid": "5eee6717a27a66807cf2bec6"
+    },
+    "name": "Anovate Cream",
+    "image": "https://5.imimg.com/data5/TE/XB/HQ/SELLER-7047793/anovate-cream-500x500.jpg",
+    "price": "42"
+  
+  },
+  {
+    
+    "_id": {
+      "$oid": "5eee6717a27a66807cf2bec7"
+    },
+    "name": "Arkamin Tablet",
+    "image": "https://ymedy.com/wp-content/uploads/2020/08/Arkamin-Tablet-4.jpg",
+    "price": "65"
+  
+  }]

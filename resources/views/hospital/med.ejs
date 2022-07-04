@@ -1,0 +1,40 @@
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/pharma.css">
+<div class="header">
+    <h1 class="head">CareWell's pharmacy</h1>
+    <h3 class="tag"> <i>the one who cares for you.</i> </h3>
+</div>
+
+
+<div class="grid grid-cols-4 col-gap-12 row-gap">
+    <% pizzas.forEach(function(pizza){
+        if(pizza.price=="15"||pizza.price=="13"||pizza.price=="133"||pizza.price=="71"||pizza.price=="56"||pizza.price=="133"||pizza.price=="71"||pizza.price=="46"||pizza.price=="8"||pizza.price=="108"||pizza.price=="43"||pizza.price=="28"||pizza.price=="71"||pizza.price=="37"||pizza.price=="42"||pizza.price=="65"){ %>
+    <div class = "product">
+        <div class = "product-content">
+            <div class = "product-img">
+                <img src = "<%= pizza.image %>" alt = "evion-img">
+            </div>
+            <div class = "product-btns">
+                <button type = "button" data-pizza="<%= JSON.stringify(pizza) %>" class = "btn-cart add-to-cart"> add to cart
+                    <span><i class = "fas fa-plus"></i></span>
+                </button>
+                
+            </div>
+        </div>
+
+        <div class = "product-info">
+            <div class = "product-info-top">
+                <div class = "rating">
+                    <span><i class = "fas fa-star"></i></span>
+                    <span><i class = "fas fa-star"></i></span>
+                    <span><i class = "fas fa-star"></i></span>
+                    <span><i class = "fas fa-star"></i></span>
+                    <span><i class = "far fa-star"></i></span>
+                </div>
+            </div>
+            <a href = "#" class = "product-name"><%= pizza.name %></a>
+            <p class = "product-price">₹<%= pizza.price %></p>
+        </div>
+    </div>
+    <% }}) %>
+</div>
